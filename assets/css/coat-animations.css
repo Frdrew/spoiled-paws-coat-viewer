@@ -1,0 +1,35 @@
+/* ==========================
+   COAT VIEWER — ANIMATIONS
+=========================== */
+
+.cv-fade {
+    opacity: 0;
+    animation: cvFade .35s ease forwards;
+}
+
+@keyframes cvFade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.cv-rotate {
+    opacity: 0;
+    transform: scale(.96) rotate(-2deg);
+    animation: cvRotate .35s ease forwards;
+}
+
+@keyframes cvRotate {
+    0%   { opacity: 0; transform: scale(.96) rotate(-2deg); }
+    50%  { transform: scale(1.03) rotate(1deg); }
+    100% { opacity: 1; transform: scale(1) rotate(0); }
+}
+
+.cv-pulse {
+    animation: pulse .5s ease-out;
+}
+
+@keyframes pulse {
+    0%   { transform: scale(.92); }
+    60%  { transform: scale(1.06); }
+    100% { transform: scale(1); }
+}

@@ -1,0 +1,6 @@
+<div class="spcv-coat-selector">
+    <h3>Select a Coat</h3>
+    <div id="spcv-coat-list" class="spcv-coat-list">
+        <!-- JS injects coat thumbnails here -->
+    </div>
+</div>

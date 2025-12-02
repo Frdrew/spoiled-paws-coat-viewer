@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "stitchLines": {
+    "default": {
+      "front": "stitch-01.svg",
+      "left": "stitch-02.svg",
+      "right": "stitch-03.svg"
+    },
+
+    "simple": {
+      "front": "stitch-01.svg",
+      "left": "stitch-01.svg",
+      "right": "stitch-01.svg"
+    },
+
+    "quilted": {
+      "front": "stitch-02.svg",
+      "left": "stitch-02.svg",
+      "right": "stitch-02.svg"
+    },
+
+    "premium-double": {
+      "front": "stitch-03.svg",
+      "left": "stitch-03.svg",
+      "right": "stitch-03.svg"
+    }
+  },
+
+  "notes": "Every coat uses a stitch profile. If a coat does not specify one, 'default' is applied."
+}

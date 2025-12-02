@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "coats": [
+    {
+      "id": "classic-red",
+      "name": "Classic Red Coat",
+      "thumbnail": "coat-placeholder-01.svg",
+      "angles": {
+        "front": "coat-placeholder-01.svg",
+        "left": "coat-placeholder-02.svg",
+        "right": "coat-placeholder-03.svg"
+      },
+      "stitchProfile": "default",
+      "sizeCompatibility": ["XS", "S", "M", "L", "XL"]
+    },
+    {
+      "id": "winter-plaid",
+      "name": "Winter Plaid Jacket",
+      "thumbnail": "coat-placeholder-04.svg",
+      "angles": {
+        "front": "coat-placeholder-04.svg",
+        "left": "coat-placeholder-05.svg",
+        "right": "coat-placeholder-06.svg"
+      },
+      "stitchProfile": "quilted",
+      "sizeCompatibility": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "desert-tan",
+      "name": "Desert Tan Vest",
+      "thumbnail": "coat-placeholder-07.svg",
+      "angles": {
+        "front": "coat-placeholder-07.svg",
+        "left": "coat-placeholder-08.svg",
+        "right": "coat-placeholder-09.svg"
+      },
+      "stitchProfile": "simple",
+      "sizeCompatibility": ["XS", "S", "M", "L"]
+    },
+    {
+      "id": "rain-shell",
+      "name": "All-Weather Rain Shell",
+      "thumbnail": "coat-placeholder-10.svg",
+      "angles": {
+        "front": "coat-placeholder-10.svg",
+        "left": "coat-placeholder-09.svg",
+        "right": "coat-placeholder-08.svg"
+      },
+      "stitchProfile": "premium-double",
+      "sizeCompatibility": ["S", "M", "L", "XL"]
+    }
+  ],
+
+  "notes": "Your mom will replace these placeholders with her real coat PNG/SVG exports. IDs stay the same; file paths get updated."
+}

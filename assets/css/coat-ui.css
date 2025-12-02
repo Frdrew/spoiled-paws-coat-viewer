@@ -1,0 +1,37 @@
+/* ==========================
+   COAT SELECTOR GRID
+========================== */
+
+.cv-coat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cv-coat-item {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: .5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border .2s, box-shadow .2s, transform .2s;
+}
+
+.cv-coat-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.cv-coat-item:hover {
+    border-color: #d28b41;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    transform: translateY(-3px);
+}
+
+.cv-coat-item.active {
+    border-color: #a05a1c;
+    box-shadow: 0 4px 16px rgba(0,0,0,.12);
+}

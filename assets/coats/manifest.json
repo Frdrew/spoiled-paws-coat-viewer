@@ -1,0 +1,14 @@
+{
+  "coats": [
+    { "id": "coat-01", "name": "Classic Desert Coat", "size": "XS", "file": "coat-placeholder-01.svg" },
+    { "id": "coat-02", "name": "Southwest Blanket Coat", "size": "S", "file": "coat-placeholder-02.svg" },
+    { "id": "coat-03", "name": "Navajo Weave Coat", "size": "M", "file": "coat-placeholder-03.svg" },
+    { "id": "coat-04", "name": "Turquoise Trail Coat", "size": "L", "file": "coat-placeholder-04.svg" },
+    { "id": "coat-05", "name": "Warm Winter Coat", "size": "XL", "file": "coat-placeholder-05.svg" },
+    { "id": "coat-06", "name": "Santa Fe Sunset Coat", "size": "XS", "file": "coat-placeholder-06.svg" },
+    { "id": "coat-07", "name": "Taos Wool Coat", "size": "S", "file": "coat-placeholder-07.svg" },
+    { "id": "coat-08", "name": "Zia Sunburst Coat", "size": "M", "file": "coat-placeholder-08.svg" },
+    { "id": "coat-09", "name": "Chimayo Stripe Coat", "size": "L", "file": "coat-placeholder-09.svg" },
+    { "id": "coat-10", "name": "Nomad Trail Coat", "size": "XL", "file": "coat-placeholder-10.svg" }
+  ]
+}

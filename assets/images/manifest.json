@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "breeds": {
+    "xs-yorkie": {
+      "label": "Yorkshire Terrier (XS)",
+      "size": "XS",
+      "silhouette": "assets/images/silhouettes/svg/xs-yorkie.svg"
+    },
+    "s-frenchbulldog": {
+      "label": "French Bulldog (S)",
+      "size": "S",
+      "silhouette": "assets/images/silhouettes/svg/s-frenchbulldog.svg"
+    },
+    "m-cockerspaniel": {
+      "label": "Cocker Spaniel (M)",
+      "size": "M",
+      "silhouette": "assets/images/silhouettes/svg/m-cockerspaniel.svg"
+    },
+    "l-germanshepherd": {
+      "label": "German Shepherd (L)",
+      "size": "L",
+      "silhouette": "assets/images/silhouettes/svg/l-germanshepherd.svg"
+    },
+    "xl-saintbernard": {
+      "label": "Saint Bernard (XL)",
+      "size": "XL",
+      "silhouette": "assets/images/silhouettes/svg/xl-saintbernard.svg"
+    }
+  },
+
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+
+  "coats": {
+    "coat-01": {
+      "label": "Coat Style 01",
+      "thumb": "assets/images/silhouettes/svg/placeholder/coat-placeholder-01.svg",
+      "layers": {
+        "front": "assets/images/silhouettes/svg/placeholder/coat-placeholder-01.svg",
+        "left": "assets/images/silhouettes/svg/placeholder/coat-placeholder-01.svg",
+        "right": "assets/images/silhouettes/svg/placeholder/coat-placeholder-01.svg"
+      }
+    },
+    "coat-02": {
+      "label": "Coat Style 02",
+      "thumb": "assets/images/silhouettes/svg/placeholder/coat-placeholder-02.svg",
+      "layers": {
+        "front": "assets/images/silhouettes/svg/placeholder/coat-placeholder-02.svg",
+        "left": "assets/images/silhouettes/svg/placeholder/coat-placeholder-02.svg",
+        "right": "assets/images/silhouettes/svg/placeholder/coat-placeholder-02.svg"
+      }
+    },
+    "coat-03": {
+      "label": "Coat Style 03",
+      "thumb": "assets/images/silhouettes/svg/placeholder/coat-placeholder-03.svg",
+      "layers": {
+        "front": "assets/images/silhouettes/svg/placeholder/coat-placeholder-03.svg",
+        "left": "assets/images/silhouettes/svg/placeholder/coat-placeholder-03.svg",
+        "right": "assets/images/silhouettes/svg/placeholder/coat-placeholder-03.svg"
+      }
+    },
+    "coat-04": {
+      "label": "Coat Style 04",
+      "thumb": "assets/images/silhouettes/svg/placeholder/coat-placeholder-04.svg",
+      "layers": {
+        "front": "assets/images/silhouettes/svg/placeholder/coat-placeholder-04.svg",
+        "left": "assets/images/silhouettes/svg/placeholder/coat-placeholder-04.svg",
+        "right": "assets/images/silhouettes/svg/placeholder/coat-placeholder-04.svg"
+      }
+    },
+    "coat-05": {
+      "label": "Coat Style 05",
+      "thumb": "assets/images/silhouettes/svg/placeholder/coat-placeholder-05.svg",
+      "layers": {
+        "front": "assets/images/silhouettes/svg/placeholder/coat-placeholder-05.svg",
+        "left": "assets/images/silhouettes/svg/placeholder/coat-placeholder-05.svg",
+        "right": "assets/images/silhouettes/svg/placeholder/coat-placeholder-05.svg"
+      }
+    },
+    "coat-06": {
+      "label": "Coat Style 06",
+      "thumb": "assets/images/silhouettes/svg/placeholder/coat-placeholder-06.svg",
+      "layers": {
+        "front": "assets/images/silhouettes/svg/placeholder/coat-placeholder-06.svg",
+        "left": "assets/images/silhouettes/svg/placeholder/coat-placeholder-06.svg",
+        "right": "assets/images/silhouettes/svg/placeholder/coat-placeholder-06.svg"
+      }
+    },
+    "coat-07": {
+      "label": "Coat Style 07",
+      "thumb": "assets/images/silhouettes/svg/placeholder/coat-placeholder-07.svg",
+      "layers": {
+        "front": "assets/images/silhouettes/svg/placeholder/coat-placeholder-07.svg",
+        "left": "assets/images/silhouettes/svg/placeholder/coat-placeholder-07.svg",
+        "right": "assets/images/silhouettes/svg/placeholder-07.svg"
+      }
+    },
+    "coat-08": {
+      "label": "Coat Style 08",
+      "thumb": "assets/images/silhouettes/svg/placeholder/coat-placeholder-08.svg",
+      "layers": {
+        "front": "assets/images/silhouettes/svg/placeholder/coat-placeholder-08.svg",
+        "left": "assets/images/silhouettes/svg/placeholder/coat-placeholder-08.svg",
+        "right": "assets/images/silhouettes/svg/placeholder/coat-placeholder-08.svg"
+      }
+    },
+    "coat-09": {
+      "label": "Coat Style 09",
+      "thumb": "assets/images/silhouettes/svg/placeholder/coat-placeholder-09.svg",
+      "layers": {
+        "front": "assets/images/silhouettes/svg/placeholder/coat-placeholder-09.svg",
+        "left": "assets/images/silhouettes/svg/placeholder/coat-placeholder-09.svg",
+        "right": "assets/images/silhouettes/svg/placeholder/coat-placeholder-09.svg"
+      }
+    },
+    "coat-10": {
+      "label": "Coat Style 10",
+      "thumb": "assets/images/silhouettes/svg/placeholder/coat-placeholder-10.svg",
+      "layers": {
+        "front": "assets/images/silhouettes/svg/placeholder/coat-placeholder-10.svg",
+        "left": "assets/images/silhouettes/svg/placeholder/coat-placeholder-10.svg",
+        "right": "assets/images/silhouettes/svg/placeholder/coat-placeholder-10.svg"
+      }
+    }
+  }
+}

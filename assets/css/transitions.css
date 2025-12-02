@@ -1,0 +1,89 @@
+/* ==========================
+   GLOBAL SITE TRANSITIONS
+=========================== */
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn .6s ease forwards;
+}
+
+@keyframes fadeIn {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Slide up */
+.slide-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideUp .6s ease forwards;
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover lift */
+.lift {
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.lift:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 22px rgba(0,0,0,.15);
+}
+
+/* Card tilt */
+.tilt {
+    transform-style: preserve-3d;
+    transition: transform 0.22s ease;
+}
+
+.tilt:hover {
+    transform: perspective(600px) rotateX(6deg) rotateY(-6deg);
+}
+.cv-rotate-enter {
+    opacity: 0;
+    transform: scale(.98);
+}
+
+.cv-rotate-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: all .25s ease-out;
+}
+.shimmer {
+    position: relative;
+    overflow: hidden;
+}
+
+.shimmer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg,
+        transparent,
+        rgba(255,255,255,.45),
+        transparent
+    );
+    animation: shimmer 1.8s infinite;
+}
+
+@keyframes shimmer {
+    to { left: 150%; }
+}
+.pop {
+    animation: popAnim .25s ease-out;
+}
+
+@keyframes popAnim {
+    0%   { transform: scale(.9); }
+    70%  { transform: scale(1.08); }
+    100% { transform: scale(1); }
+}

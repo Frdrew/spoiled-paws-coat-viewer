@@ -1,0 +1,41 @@
+/* ==========================
+   VIEWER LAYOUT & RESPONSIVE
+=========================== */
+
+@media (min-width: 720px) {
+    .cv-flex {
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+
+    .cv-flex .cv-viewer-wrap {
+        flex: 1;
+    }
+
+    .cv-flex .cv-controls {
+        flex: 1;
+    }
+}
+
+/* Coat thumbnails layout */
+.cv-thumb-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: .75rem;
+}
+
+.cv-thumb {
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: .5rem;
+    transition: border .2s, transform .2s;
+}
+
+.cv-thumb:hover {
+    transform: translateY(-3px);
+}
+
+.cv-thumb.active {
+    border-color: #c38847;
+}

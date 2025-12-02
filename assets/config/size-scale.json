@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "sizes": {
+    "XS": {
+      "scale": 0.62,
+      "offsetX": 4,
+      "offsetY": 6,
+      "notes": "Extra small dogs (Yorkie, Chihuahua)."
+    },
+    "S": {
+      "scale": 0.74,
+      "offsetX": 2,
+      "offsetY": 4,
+      "notes": "Small compact dogs (French Bulldog, Pug)."
+    },
+    "M": {
+      "scale": 0.88,
+      "offsetX": 0,
+      "offsetY": 3,
+      "notes": "Medium dogs (Cocker Spaniel, Beagle)."
+    },
+    "L": {
+      "scale": 1.05,
+      "offsetX": -2,
+      "offsetY": 2,
+      "notes": "Large dogs (German Shepherd, Husky)."
+    },
+    "XL": {
+      "scale": 1.22,
+      "offsetX": -4,
+      "offsetY": 1,
+      "notes": "Extra large dogs (Saint Bernard, Great Dane)."
+    }
+  },
+
+  "breedOverrides": {
+    "xs-yorkie": {
+      "scale": 0.60,
+      "offsetX": 5,
+      "offsetY": 7
+    },
+    "s-frenchbulldog": {
+      "scale": 0.77,
+      "offsetX": 1,
+      "offsetY": 3
+    },
+    "m-cockerspaniel": {
+      "scale": 0.89,
+      "offsetX": 0,
+      "offsetY": 2
+    },
+    "l-germanshepherd": {
+      "scale": 1.14,
+      "offsetX": -3,
+      "offsetY": 1
+    },
+    "xl-saintbernard": {
+      "scale": 1.33,
+      "offsetX": -5,
+      "offsetY": 0
+    }
+  },
+
+  "viewAngles": {
+    "front": {
+      "coatOffsetX": 0,
+      "coatOffsetY": 0,
+      "shadowOpacity": 0.55
+    },
+    "left": {
+      "coatOffsetX": -3,
+      "coatOffsetY": 0,
+      "shadowOpacity": 0.65
+    },
+    "right": {
+      "coatOffsetX": 3,
+      "coatOffsetY": 0,
+      "shadowOpacity": 0.65
+    }
+  }
+}
+

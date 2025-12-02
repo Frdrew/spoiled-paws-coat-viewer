@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "breeds": [
+    {
+      "id": "xs-yorkie",
+      "label": "Yorkshire Terrier",
+      "size": "XS",
+      "silhouette": "assets/images/silhouettes/svg/xs-yorkie.svg",
+      "notes": "Tiny frame, short back length. Perfect for ultra-small coats."
+    },
+    {
+      "id": "s-frenchbulldog",
+      "label": "French Bulldog",
+      "size": "S",
+      "silhouette": "assets/images/silhouettes/svg/s-frenchbulldog.svg",
+      "notes": "Compact build, wide chest. Popular for fitted jackets."
+    },
+    {
+      "id": "m-cockerspaniel",
+      "label": "Cocker Spaniel",
+      "size": "M",
+      "silhouette": "assets/images/silhouettes/svg/m-cockerspaniel.svg",
+      "notes": "Medium length body with rounded ribcage — common custom orders."
+    },
+    {
+      "id": "l-germanshepherd",
+      "label": "German Shepherd",
+      "size": "L",
+      "silhouette": "assets/images/silhouettes/svg/l-germanshepherd.svg",
+      "notes": "Long strong body, tall shoulders; ideal for outdoor-working coats."
+    },
+    {
+      "id": "xl-saintbernard",
+      "label": "Saint Bernard",
+      "size": "XL",
+      "silhouette": "assets/images/silhouettes/svg/xl-saintbernard.svg",
+      "notes": "Massive frame. Heavy-duty fabrics and reinforced straps recommended."
+    }
+  ]
+}

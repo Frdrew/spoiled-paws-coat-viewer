@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "spoiled-paws/coat-viewer",
+  "title": "Coat Viewer",
+  "category": "widgets",
+  "icon": "visibility",
+  "description": "Interactive 3D dog coat try-on viewer.",
+  "keywords": ["coat", "dog", "viewer", "3d"],
+  "textdomain": "coat-viewer",
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  },
+
+  "render": "render.php",
+
+  "editorScript": "spcv-editor-js",
+  "editorStyle": "spcv-editor-css",
+  "script": "spcv-frontend-js",
+  "style": "spcv-frontend-css",
+
+  "viewScript": [
+    "spcv-viewer-3d",
+    "spcv-coat-ui"
+  ],
+
+  "assets": {
+    "spcv-editor-js":        "edit.js",
+    "spcv-editor-css":       "style.css",
+    "spcv-frontend-js":      "save.js",
+    "spcv-frontend-css":     "style.css",
+    "spcv-viewer-3d":        "../../assets/js/viewer-3d.js",
+    "spcv-coat-ui":          "../../assets/js/loader-utils.js"
+  }
+}
+
+}
