@@ -1,16 +1,15 @@
+<?php
 /**
- * Plugin Name: Spoiled Paws — Coat Viewer
- * Plugin URI: https://github.com/Frdrew/spoiled-paws-coat-viewer
- * Description: Dog coat try-on viewer.
- * Author: Spoiled Paws
+ * Plugin Name: Spoiled Paws – Coat Viewer
+ * Description: Dog coat try-on viewer with silhouettes, feathers, overlays, stitching, and 3D rotation.
  * Version: 1.0.0
- *
+ * Author: Spoiled Paws
  * GitHub Plugin URI: Frdrew/spoiled-paws-coat-viewer
- * Primary Branch: main
+ * GitHub Branch: main
  */
 
-
 if (!defined('ABSPATH')) exit;
+
 
 // -----------------------------------------------------------------------------
 // CONSTANTS
